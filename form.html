@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link rel="stylesheet" href="form.css">
         <title>
             Form
         </title>
     </head>
 
     <body>
-        <h1>Bio Data</h1>
+      <h1 class="first">Welcome!</h1>
+        <p>The below details will be used to by the institution to keep records, and then create an account on the student portal website.</p>
+        <h1 class="second">Bio Data</h1>
         <form>
 
-            <label for="firstname">First name:</label><br>
+            <label for="firstname">First name:</label>
+            <img src="https://image.flaticon.com/icons/png/512/1828/1828439.png" height="15px"><br>
             <input type="text" id="first" placeholder="firstname"><br>
 
-            <label for="lastname">Last name:</label><br>
+            <label for="lastname">Last name:</label>
+            <img src="https://image.flaticon.com/icons/png/512/1828/1828439.png" height="15px"><br>
             <input type="text" id="last" placeholder="lastname"><br>
 
-            <label for="email">Email:</label><br>
+            <label for="email">Email:</label>
+            <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png" height="20px"><br>
             <input type="email" id="email" placeholder="email"><br>
 
-            <label for="firstname">Username:</label><br>
+            <label for="username">Username:</label>
+            <img src="https://cdn4.iconfinder.com/data/icons/e-commerce-icon-set/48/Username_2-512.png" height="15px"><br>
             <input type="text" id="usern" placeholder="username"><br>
 
-            <label for="password">Password:</label><br>
+            <label for="password">Password:</label>
+            <img src="https://image.flaticon.com/icons/png/512/61/61457.png" height="15px"><br>
             <input type="password" id="password"><br><br>
-
             <label for="gender">Specify Gender:</label>
+          <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/gender-2571413-2149433.png" height="20px">
+            
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="female">
@@ -33,10 +42,12 @@
             <input type="radio" id="other" name="gender" value="other">
             <label for="other">Other</label><br><br>
 
-            <label for="birthday">Date of Birth:</label><br>
+            <label for="birthday">Date of Birth:</label>
+          <img src="https://cdn2.iconfinder.com/data/icons/calendar-3/500/business_calendar_event_history_month_plan_reminder_date_day_appointment_month_network_week_year_grid-512.png" height="20px"><br>
             <input type="date" id="birthday" name="birthday"><br><br>
 
             <label for="year">Year of Graduation:</label>
+            <img src="https://images.vexels.com/media/users/3/166342/isolated/preview/6a46b3eea1b8b9bb4cab9a0c26dc2a74-graduation-cap-icon-graduation-icons-by-vexels.png" height="25px">
             <select name="year" id="year">
                 <option value="2021">2021</option>
                 <option value="2022">2022</option>
@@ -44,7 +55,8 @@
                 <option value="2024">2024</option>
             </select><br><br>
 
-            <label for="subjects">Subjects Studied:</label><br>
+            <label for="subjects">Subjects Studied:</label>
+          <img src="https://image.flaticon.com/icons/png/512/130/130304.png" height="20px"><br>
             <input type="checkbox" id="eng" name="eng" value="english">
             <label for="eng">English</label><br>
             <input type="checkbox" id="mat" name="mat" value="maths">
@@ -56,15 +68,11 @@
             <input type="checkbox" id="seclang" name="seclang" value="seclang">
             <label for="seclang">Second Language</label><br><br>
 
-            <a href="https://www.google.com/">Refer this link for more details regarding course structure for the present academic session.</a><br><br>
-            
+            <div><a href="https://www.google.com/">Refer this link for more details regarding course structure for the present academic session.</a></div><br>
 
             <input type="submit" value="Submit">
 
         </form>
-
-        <h2>Description of the form:</h2>
-        <p>The above form can be used to get details of students by an institution to keep records, and then create an account on a student portal website.</p>
     </body>
 </html>
 
